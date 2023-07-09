@@ -7,7 +7,6 @@ TARGET_POWERHAL_AIDL_VERSION ?= 2
 
 LOCAL_MODULE := android.hardware.power-service-mediatek
 LOCAL_VENDOR_MODULE := true
-LOCAL_MULTILIB := 64
 LOCAL_VINTF_FRAGMENTS := power-mtk-v$(TARGET_POWERHAL_AIDL_VERSION).xml
 LOCAL_SRC_FILES := Power.cpp
 
